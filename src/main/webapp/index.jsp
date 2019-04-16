@@ -13,15 +13,13 @@
 	<a href="user.jsp">Login as User</a>
 	<br>
 	<hr>
-	<marquee>1:30 Lunch Break</marquee>
+	
 	<br>
 	<hr>
 	<marquee>
-		<h2> Abki Baar Modi Sarkar</h2>
-		<h4>We Support Digital India</h4>
-		designer:SOURAV GOYAL
-		      CHENNAI
-		     7358550765
+		
+		<h4>A make in India initiative</h4>
+		
 		
 	</marquee>
 </body>

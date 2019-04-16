@@ -15,7 +15,7 @@
 	<a href="../showbalance.jsp">check balance</a><br>
 	<a href="../withdraw.jsp">to withdraw</a><br>
 	<hr>
-	<marquee>thank you for choosing us</marquee>
+	<marquee>thank you for banking with us</marquee>
 
 </body>
 </html>

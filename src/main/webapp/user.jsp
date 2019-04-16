@@ -8,13 +8,13 @@
 </head>
 <body>
 	<h2>welcome to the user login page</h2>
-	<form action="accounts/userlogin" method="post">
+	<form action="admin/userlogin" method="post">
 		Login Id <input type="text" name="username" required autofocus /> <br>
 		Password <input type="password" name="password" required autofocus />
 		<br> <input type="Submit" value=" User Login">
 	</form>
 	<br><hr>
-	we respect your privacy
+	We respect your privacy
 	<hr>
 </body>
 </html>

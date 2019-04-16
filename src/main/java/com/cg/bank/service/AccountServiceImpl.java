@@ -26,10 +26,10 @@ public class AccountServiceImpl implements IAccountService {
 		return accountlist;
 	}
 
+	@Override
 	public Account findById(Integer id) {
-		// TODO Auto-generated method stub
-		return null;
+		Account account = accountDao.findById(id).get();
+		return account;
 	}
 
 }
-

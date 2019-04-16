@@ -7,7 +7,7 @@
 <title>Fund Transfer</title>
 </head>
 <body>
-	<form action="accounts/fundTransfer" method="get">
+	<form action="admin/fundTransfer" method="get">
 		<table border="1">
 		<tr><td>Enter the Account Number</td>
 				<td><input type="number" name="id1"></td></tr>

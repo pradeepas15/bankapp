@@ -8,7 +8,7 @@
 </head>
 <body>
 	<h2>welcome to the manager login page</h2>
-	<form action="accounts/login" method="post">
+	<form action="admin/login" method="post">
 		Login Id <input type="text" name="username" required autofocus /> <br>
 		Password <input type="password" name="password" required autofocus />
 		<br> <input type="Submit" value="Manager Login">

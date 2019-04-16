@@ -14,7 +14,7 @@ import com.cg.bank.model.Account;
 import com.cg.bank.service.AccountServiceImpl;
 
 @RestController
-@RequestMapping("/accounts")
+@RequestMapping("/admin")
 public class AccountController {
 
 	int temp;
@@ -57,7 +57,7 @@ public class AccountController {
 	public ModelAndView save(/* @RequestParam Integer id */ @RequestParam String accounttype,
 			@RequestParam double balance, @RequestParam String name, @RequestParam String mobile) {
 		Account account = new Account();
-		account.setId(0);
+		/* account.setId(0); */
 		account.setAccounttype(accounttype);
 		account.setBalance(balance);
 		account.setName(name);
@@ -99,7 +99,6 @@ public class AccountController {
 		Account account = accountService.findById(id);
 		modelAndView = new ModelAndView("showbalance");
 		modelAndView.addObject("ACCOUNT", account);
-
 		return modelAndView;
 	}
 	
@@ -122,5 +121,5 @@ public class AccountController {
 
 	}
 
-
+	
 }
