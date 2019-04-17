@@ -10,8 +10,12 @@
 	<form action="admin/balance" method="get">
 	    Enter the account id <input type="text" name="id" required /><br>
 		<input type="Submit" value="check">
-
-	</form>
-	<h2>The Balance is:</h2>${ACCOUNT.balance}
+		</form>
+<h2>The Balance is:</h2>${ACCOUNT}
+	
+	
+	
+	<br><hr>
+	<a href="../menu.jsp">Home</a>
 </body>
 </html>

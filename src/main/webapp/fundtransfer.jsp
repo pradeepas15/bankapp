@@ -9,8 +9,8 @@
 <body>
 	<form action="admin/fundTransfer" method="get">
 		<table border="1">
-		<tr><td>Enter the Account Number</td>
-				<td><input type="number" name="id1"></td></tr>
+		<!-- <tr><td>Enter the Account Number</td>
+				<td><input type="number" name="id1"></td></tr> -->
 			<tr>
 				<td>Enter the Account Number</td>
 				<td><input type="number" name="id"></td>
@@ -25,6 +25,7 @@
 			</tr>
 		</table>
 	</form>
-	<a href="home.jsp">Home</a>
+	<br><hr>
+	<a href="../menu.jsp">Home</a>
 </body>
 </html>

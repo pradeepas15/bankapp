@@ -12,15 +12,7 @@
 	<br>
 	<a href="user.jsp">Login as User</a>
 	<br>
-	<hr>
 	
-	<br>
-	<hr>
-	<marquee>
-		
-		<h4>A make in India initiative</h4>
-		
-		
-	</marquee>
+	
 </body>
 </html>
